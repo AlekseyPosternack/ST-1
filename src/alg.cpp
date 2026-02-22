@@ -40,7 +40,7 @@ uint64_t nextPrime(uint64_t value) {
   uint64_t next_prime = value;
   while (true) {
     next_prime++;
-    if(checkPrime(next_prime)) {
+    if (checkPrime(next_prime)) {
       return next_prime;
     }
   }
