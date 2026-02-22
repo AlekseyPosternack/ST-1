@@ -21,7 +21,7 @@ TEST(st1, checkPrime_functional) {
   EXPECT_TRUE(checkPrime(97));
   EXPECT_FALSE(checkPrime(100));
   EXPECT_TRUE(checkPrime(101));
-  EXPECT_FALSE(checkPrime(121)); 
+  EXPECT_FALSE(checkPrime(121));
 }
 
 // CheckPrime граничные тесты
