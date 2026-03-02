@@ -30,7 +30,7 @@ TEST(st1, checkPrime_functional3) {
 }
 
 TEST(st1, checkPrime_functional4) {
-  EXPECT_FALSE(checkPrime(121)); 
+  EXPECT_FALSE(checkPrime(121));
 }
 
 // CheckPrime граничные тесты
